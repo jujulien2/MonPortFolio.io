@@ -1,0 +1,30 @@
+.headerWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 96%;
+  opacity: 0;
+  animation: displayHeader 1s forwards;
+  animation-delay: 1s;
+  border-radius: 15px;
+  height: 65px;
+  margin: 0 auto;
+  background-color: #12171c;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.headerWrapper a {
+  text-decoration: none;
+}
+.headerWrapper .presentation a {
+  font-weight: 600;
+  color: hsla(0, 0%, 96.1%, 0.5);
+}
+
+@keyframes displayHeader {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=Header.css.map */
