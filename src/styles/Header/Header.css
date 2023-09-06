@@ -2,18 +2,23 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 96%;
+  width: 100%;
   opacity: 0;
   animation: displayHeader 1s forwards;
-  animation-delay: 1s;
-  border-radius: 15px;
-  height: 65px;
+  animation-delay: 0.3s;
+  height: 0px;
   margin: 0 auto;
   background-color: #12171c;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .headerWrapper a {
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+.headerWrapper a p:hover {
+  color: white;
+  font-weight: 500;
+  transition: all 0.6s;
 }
 .headerWrapper .presentation a {
   font-weight: 600;
@@ -23,8 +28,10 @@
 @keyframes displayHeader {
   0% {
     opacity: 0;
+    height: 0px;
   }
   100% {
     opacity: 1;
+    height: 65px;
   }
 }/*# sourceMappingURL=Header.css.map */

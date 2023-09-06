@@ -6,17 +6,27 @@ $primaryColor :  rgb(98 115 255);;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 96%;
+    width: 100%;
     opacity: 0;
     animation : displayHeader 1s forwards;
-    animation-delay: 1s;
-    border-radius: 15px;
-    height: 65px;
+    animation-delay: 0.3s;
+    height: 0px;
     margin: 0 auto;
     background-color: #12171c;
     box-shadow: 0 0 10px rgba(0,0,0,.5);
     a{
+       
         text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        p{
+            &:hover { 
+         color: white;
+         font-weight: 500;
+        transition: all 0.6s;
+
+              }
+
+        }
     }
     .presentation a{
         font-weight: 600;
@@ -27,8 +37,10 @@ $primaryColor :  rgb(98 115 255);;
 @keyframes displayHeader {
     0%{
         opacity: 0;
+        height: 0px;
     }
     100%{
         opacity: 1;
+        height: 65px;
     }
 }

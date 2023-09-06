@@ -1,8 +1,47 @@
-.homeWrapper {
-  background-color: #272e3d;
-  margin: 0 auto;
-  border-radius: 15px;
-  width: 90%;
-  height: 90vh;
-  overflow: hidden;
+.homeContain {
+  display: flex;
+  gap: 5em;
+  opacity: 0;
+  height: auto;
+  width: auto;
+  padding: 25px;
+  max-width: 100%;
+  animation: displayHomeContain forwards 5s;
+  animation-delay: 0.3s;
+}
+
+@keyframes displayHomeContain {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.myNameWrapper {
+  height: 100px;
+  width: 25%;
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.name {
+  color: #f5f5f5;
+  font-family: "Montserrat", sans-serif;
+  white-space: nowrap;
+  font-weight: 300;
+  font-size: 65px;
+}
+
+.job {
+  color: rgb(98, 115, 255);
+  font-family: "Roboto", sans-serif;
+  white-space: nowrap;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.aboutMe {
+  color: #f5f5f5;
 }/*# sourceMappingURL=Home.css.map */

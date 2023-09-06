@@ -5,17 +5,18 @@ const Header = () => {
         <div className='headerWrapper'>
             <div className='presentation'>
                 <a href="">
-                    Présentation
+                    <p> Présentation</p>
                 </a>
             </div>
             <div className='presentation'>
                 <a href="">
-                    Présentation
+                    <p> Projets</p>
                 </a>
             </div>
             <div className='presentation'>
                 <a href="">
-                    Présentation
+                    <p>Compétences</p>
+
                 </a>
             </div>
         </div>

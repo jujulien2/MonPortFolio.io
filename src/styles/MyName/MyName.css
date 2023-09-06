@@ -4,7 +4,6 @@
   position: relative;
   display: flex;
   flex-direction: column-reverse;
-  margin: 150px 65% 60px auto;
 }
 
 .name {

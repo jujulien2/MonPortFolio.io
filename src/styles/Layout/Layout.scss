@@ -1,0 +1,27 @@
+.background{
+    height: 100vh;
+    width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: url('../../Assets/backPlan.gif') no-repeat center center fixed;
+  background-size: cover;
+      }
+      .containWrapper{
+        overflow: overlay;
+        background-color: #1c1f278a;
+        margin: 0 auto;
+          width: 90%;
+          height: 25vh;
+          animation : displayHome forwards 0.4s;
+        
+      }
+      @keyframes displayHome {
+        0%{
+            
+            height: 25vh;
+        }
+        100%{
+            height: 90vh;
+        }
+      }
