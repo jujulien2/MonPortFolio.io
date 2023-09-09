@@ -16,8 +16,7 @@
   font-family: "Montserrat", sans-serif;
 }
 .headerWrapper a p:hover {
-  color: white;
-  font-weight: 500;
+  color: rgb(98, 115, 255);
   transition: all 0.6s;
 }
 .headerWrapper .presentation a {

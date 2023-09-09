@@ -20,10 +20,8 @@ $primaryColor :  rgb(98 115 255);;
         font-family: 'Montserrat', sans-serif;
         p{
             &:hover { 
-         color: white;
-         font-weight: 500;
+                color: rgb(98, 115, 255);
         transition: all 0.6s;
-
               }
 
         }
