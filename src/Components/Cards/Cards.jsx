@@ -1,12 +1,15 @@
 import React from 'react';
 import '../../styles/ProjectsPageCss/Cards/Cards.css'
+import Modal from '../Modal/Modal';
+
+
 
 const Cards = (props) => {
     return (
         <div className={props.className}>
             <div className='openProject'>
                 <i className="fa-solid fa-arrow-right"></i>
-                <a href={props.href} target='blank'>let's see me !</a>
+                <button onClick={props.onClick}>En savoir plus ici !</button>
                 <i className="fa-solid fa-arrow-left"></i>
             </div>
             <img src={props.image}></img>

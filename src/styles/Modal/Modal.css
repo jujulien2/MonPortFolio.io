@@ -1,0 +1,27 @@
+.modalWrapper {
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.738);
+}
+
+.modal {
+  color: white;
+  height: 66%;
+  width: 37%;
+  border-radius: 18px;
+  border: #8e8e8e 2px solid;
+  padding: 15px;
+  background: url("../../Assets/Projects/modal.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.closeModal {
+  display: flex;
+  justify-content: right;
+  cursor: pointer;
+}/*# sourceMappingURL=Modal.css.map */

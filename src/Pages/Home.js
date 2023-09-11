@@ -13,11 +13,14 @@ const Home = () => {
                 <div className='name'>Blondel Julien</div>
                 <div className='job'>Développeur Junior - Intégrateur Web</div>
                 <div className='aboutMe'>
-                    Lorem ipsum dolor sit amet. Ut debitis excepturi aut tenetur dolor non quibusdam totam non illum reiciendis ut voluptas obcaecati rem distinctio sint sit consequatur dolores? Aut odio optio non autem ratione qui galisum itaque hic vitae porro.
+                    👋 Bonjour, je suis Julien, un développeur web junior passionné de 24 ans.
 
-                    Ut eaque explicabo qui molestiae omnis ea suscipit dolores a libero nihil ut culpa quia. Et suscipit deleniti non dolor officia qui optio sint et libero magni ut neque adipisci qui veniam iusto ut exercitationem labore.
+                    💡 Mon parcours dans le monde du développement web a été guidé par ma soif d'apprentissage et ma volonté de créer des solutions numériques innovantes. Chaque ligne de code que j'écris est une opportunité d'améliorer l'expérience utilisateur et de résoudre des problèmes avec élégance.
 
-                    In adipisci similique aut quidem assumenda sed culpa unde est vero provident! Non atque corrupti aut facilis excepturi aut adipisci minima qui labore incidunt et fugit impedit.
+                    🌐 Je suis constamment à la recherche de nouvelles technologies et de tendances pour rester à jour avec les derniers développements du secteur. Mon expérience inclut la création de sites web réactifs, l'intégration de fonctionnalités dynamiques, et la résolution de défis techniques avec une approche axée sur la qualité et la performance.
+
+                    💼 Mon objectif en tant que développeur web junior est de contribuer à des projets stimulants au sein d'une équipe dynamique. Je suis prêt à apporter mes compétences en développement web, ma créativité et mon désir d'apprendre pour aider votre entreprise à atteindre de nouveaux sommets.
+
                 </div>
             </div>
 

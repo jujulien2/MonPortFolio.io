@@ -6,7 +6,7 @@
   width: auto;
   padding: 25px;
   max-width: 100%;
-  animation: displayHomeContain forwards 5s;
+  animation: displayHomeContain forwards 1.5s;
   animation-delay: 0.3s;
 }
 
@@ -44,6 +44,7 @@
 
 .aboutMe {
   color: #f5f5f5;
+  margin-top: 2em;
 }
 
 .containLeftSide {

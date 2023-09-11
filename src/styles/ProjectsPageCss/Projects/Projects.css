@@ -6,12 +6,14 @@
   display: flex;
   flex-wrap: wrap;
   padding: 25px;
+  animation: displayHomeContain forwards 2.5s;
+  opacity: 0;
 }
 
 .cardWrapper {
   position: relative;
   border: rgba(255, 255, 255, 0.1490196078) solid 3px;
   width: 25%;
-  padding: 10px;
+  padding: 20px;
   text-decoration: none;
 }/*# sourceMappingURL=Projects.css.map */

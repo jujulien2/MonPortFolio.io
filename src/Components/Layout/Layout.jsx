@@ -5,7 +5,7 @@ const Layout = (props) => {
 
     return (
         <div className='background'>
-            <div className='containWrapper' >
+            <div className='layoutWrapper' >
                 <Header
                     navOne='Présentation'
                     navTwo='Projets'
