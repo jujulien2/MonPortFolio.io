@@ -13,6 +13,11 @@ opacity: 0;
     position: relative;
     border: rgba(255, 255, 255, 0.1490196078) solid 3px;
     width: 25%;
+    font-family: "Montserrat", sans-serif;
     padding: 20px;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
+

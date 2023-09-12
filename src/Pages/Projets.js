@@ -19,6 +19,8 @@ const Projets = () => {
         setSelectedCardIndex(null);
         setIsModalOpen(false);
     };
+
+
     return (
         <div className='projectsWrapper'>
             {Data && Data.map((project, index) => (
@@ -26,26 +28,25 @@ const Projets = () => {
                     key={index}
                     className='cardWrapper'
                     title={project.title}
-                    href={project.href}
                     image={project.image}
                     onClick={() => openModal(index)}
                 />
             ))}
             {isModalOpen && selectedCardIndex !== null ? (
                 <Modal
-                    titleTwo={Data[selectedCardIndex].titleTwo}
-                    href={Data[selectedCardIndex].href}
-                    title={Data[selectedCardIndex].title}
-                    logo={Data[selectedCardIndex].logo}
-                    description={Data[selectedCardIndex].description}
+                    projectData={Data}
+                    selectedCardIndex={selectedCardIndex}
                     closeModal={closeModal}
                 />
+
+
             ) : null}
         </div>
     );
 };
 
 export default Projets;
+
 
 
 

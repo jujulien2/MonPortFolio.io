@@ -16,7 +16,7 @@
   transition: 0.5s;
   background-color: rgba(18, 23, 28, 0.6862745098);
 }
-.cardWrapper img {
+.cardWrapper .imageCard {
   height: 70%;
   width: 100%;
 }
