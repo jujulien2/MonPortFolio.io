@@ -9,10 +9,13 @@ const Modal = (props) => {
     }
 
     return (
-        <div className='modalWrapper' onClick={props.closeModal}>
+        <aside className='modalWrapper' onClick={props.closeModal}>
             <div className='modal' onClick={stopPropagation} >
+                <section className='headerModal'>
+                    <h1>{selectedProject.title}</h1>
+                </section>
                 <div className='closeModal'><i className="fa-solid fa-xmark" onClick={props.closeModal}></i></div>
-                <h1>{selectedProject.title}</h1>
+
                 <h2>{selectedProject.titleTwo}</h2>
                 <div className='imgOfModal'>
                     <img className='logo' src={selectedProject.logo} alt="logo kasa project" />
@@ -30,10 +33,7 @@ const Modal = (props) => {
                 ))}
                 <div className='skills'>
                     {selectedProject.skillsLogo.map((skills, index) => (
-
                         <img key={index} src={skills}></img>
-
-
                     ))}
 
                 </div>
@@ -45,7 +45,7 @@ const Modal = (props) => {
                     <i className="fa-solid fa-arrow-left"></i>
                 </div>
             </div>
-        </div>
+        </aside>
     );
 };
 

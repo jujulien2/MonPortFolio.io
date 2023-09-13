@@ -30,6 +30,7 @@ const Projets = () => {
                     title={project.title}
                     image={project.image}
                     onClick={() => openModal(index)}
+                    logoCard={project.logoOCR}
                 />
             ))}
             {isModalOpen && selectedCardIndex !== null ? (

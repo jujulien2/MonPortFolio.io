@@ -13,11 +13,13 @@ import html from '../Skills/html.png'
 import javaScript from '../Skills/javaScript.png'
 import react from '../Skills/react.png'
 import scss from '../Skills/scss.png'
+import OCR from '../Skills/OCR.png'
 
 
 const data = [
     {
         "id": 1,
+        "logoOCR": OCR,
         "title": "Projet Booki.com",
         "logo": logoBooki,
         "screenProject": screenProjectBooki,
@@ -38,6 +40,7 @@ const data = [
     },
     {
         "id": 2,
+        "logoOCR": OCR,
         "title": "Projet Kasa",
         "titleTwo": "Le but de ce projet !",
         "logo": logoKasa,
@@ -58,6 +61,7 @@ const data = [
     },
     {
         "id": 3,
+        "logoOCR": OCR,
         "title": "Projet Oh My Food",
         "logo": logoOhMyFood,
         "screenProject": screenProjectFood,
@@ -75,6 +79,7 @@ const data = [
             css,
             html,
             github
+
         ]
     }
 ];

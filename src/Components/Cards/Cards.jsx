@@ -12,7 +12,10 @@ const Cards = (props) => {
                 <i className="fa-solid fa-arrow-left"></i>
             </div>
             <img className='imageCard' src={props.image}></img>
-            <h1>{props.title}</h1>
+            <div className='underImageCard'>
+                <h1>{props.title}</h1>
+                <img className='openClassRoomLogo' src={props.logoCard}></img>
+            </div>
         </div>
     );
 };
