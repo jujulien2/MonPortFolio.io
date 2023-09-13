@@ -1,4 +1,4 @@
-import React from 'react';
+
 import '../../styles/Modal/Modal.css'
 
 const Modal = (props) => {
@@ -8,10 +8,12 @@ const Modal = (props) => {
         e.stopPropagation()
     }
 
+
+
     return (
         <aside className='modalWrapper' onClick={props.closeModal}>
             <div className='modal' onClick={stopPropagation} >
-                <section className='headerModal'>
+                <section className="headerModal" >
                     <h1>{selectedProject.title}</h1>
                 </section>
                 <div className='closeModal'><i className="fa-solid fa-xmark" onClick={props.closeModal}></i></div>

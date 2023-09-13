@@ -1,26 +1,27 @@
-import React, { useState } from 'react';
+
 import '../../styles/Header/Header.css'
+import { Link } from 'react-router-dom';
 const Header = (props) => {
 
     return (
         <div className='headerWrapper'>
             <div className='presentation'>
-                <a href="/">
-                    <p>{props.navOne}</p>
-                </a>
-            </div>
+                <Link to={"/"}>
+                    < p > {props.navOne}</p>
+                </Link>
+            </div >
             <div className='presentation'>
-                <a href="/Projects">
+                <Link to={"/Projects"} href="/Projects">
                     <p>{props.navTwo}</p>
-                </a>
+                </Link>
             </div>
             <div className='presentation'>
-                <a href="/Skills">
+                <Link to={"/"}>
                     <p>{props.navThree}</p>
 
-                </a>
+                </Link>
             </div>
-        </div>
+        </div >
     );
 };
 

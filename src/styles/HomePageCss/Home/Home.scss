@@ -1,8 +1,9 @@
 
 .homeContain{
-  display: flex;
   gap: 5em;
   opacity: 0;
+  display: flex;
+    flex-direction: column;
   height: auto;
   width: auto;
   padding: 25px;
@@ -20,10 +21,29 @@
       opacity: 1;
   }
 }
+// presentation : 
+.presentation{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    hr{
+      width: 80%;
+    }
+  h1{
+    font-weight: 300;
+    font-size: 45px;
+    margin: 10px;
+font-family: 'Montserrat', sans-serif;
 
+    color: white;
+  }
+}
 // display name and job
 $primaryColor :  rgb(98 115 255);
 // font-family:'Chakra Petch', sans-serif;
+.nameAndPhoto{
+display: flex;
+}
 .myNameWrapper{
     height: 100px;
     width: 25%;
@@ -37,7 +57,7 @@ $primaryColor :  rgb(98 115 255);
 font-family: 'Montserrat', sans-serif;
 white-space: nowrap;
    font-weight: 300;
-   font-size: 65px;
+   font-size: 60px;
 }
 .job{
     color: $primaryColor;
