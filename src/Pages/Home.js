@@ -2,30 +2,22 @@ import React from 'react';
 
 import '../styles/HomePageCss/Home/Home.css'
 import picOfMe from '../Assets/photo.webp'
+import BigTitle from '../Components/BigTitle/BigTitle';
 
 
 const Home = () => {
     return (
 
         <div className='homeContain'>
-            <div className='presentation'>
-                <hr />
-                <h1>Présentation</h1>
-                <hr />
-            </div>
             <div className='nameAndPhoto'>
 
                 <div className='containLeftSide'>
                     <div className='name'>Blondel Julien</div>
                     <div className='job'>Développeur Junior - Intégrateur Web</div>
-                    <div className='aboutMe'>
-                        👋 Bonjour, je suis Julien, un développeur web junior passionné de 24 ans.
-
-                        💡 Mon parcours dans le monde du développement web a été guidé par ma soif d'apprentissage et ma volonté de créer des solutions numériques innovantes. Chaque ligne de code que j'écris est une opportunité d'améliorer l'expérience utilisateur et de résoudre des problèmes avec élégance.
-
-                        🌐 Je suis constamment à la recherche de nouvelles technologies et de tendances pour rester à jour avec les derniers développements du secteur. Mon expérience inclut la création de sites web réactifs, l'intégration de fonctionnalités dynamiques, et la résolution de défis techniques avec une approche axée sur la qualité et la performance.
-
-                        💼 Mon objectif en tant que développeur web junior est de contribuer à des projets stimulants au sein d'une équipe dynamique. Je suis prêt à apporter mes compétences en développement web, ma créativité et mon désir d'apprendre pour aider votre entreprise à atteindre de nouveaux sommets.
+                    <div className='myDescription'>
+                        <p>Jeune developpeur intégrateur web junior de 24 ans,</p>
+                        <p>Soif d'apprendre et de découvrir davantage le monde du web.</p>
+                        <p className='sentenceAboutMe'>Passionné par le développement Front-end, j'apprécie particulièrement de créer des interfaces utilisateur professionnelles, agréables et intuitives qui améliorent l'expérience de l'utilisateur, tout en alliant esthétique et fonctionnalité. </p>
 
                     </div>
                 </div>
@@ -34,8 +26,29 @@ const Home = () => {
                     <img src={picOfMe}></img>
                 </div>
             </div>
-
-        </div>
+            <BigTitle
+                title='Présentation'
+                className="aboutMe"
+            />
+            <div className='presentationWrapper'>
+                <div className='textPresentation'>
+                    <h1>Bienvenue sur mon portfolio !</h1>
+                    <p>En tant qu'intégrateur web je prends plaisir à développer des sites optimisés, tant sur <span className='importantWord'>l'esthétisme</span> que sur la <span className='importantWord'>maintenabilité</span>.</p>
+                    <p>Bien que je sois <span className='importantWord'>curieux</span> et <span className='importantWord'>déterminer</span> à apprendre tout type de langages, je me perfectionne avant tout en développant avec <span className='importantWord'>ReactJs/redux, Scss.</span>  </p>
+                </div>
+            </div>
+            <BigTitle
+                title='Contact'
+                className="aboutMe"
+            />
+            <div className='presentationWrapper'>
+                <div className='textPresentation'>
+                    <h1>Bienvenue sur mon portfolio !</h1>
+                    <p>En tant qu'intégrateur web je prends plaisir à développer des sites optimisés, tant sur <span className='importantWord'>l'esthétisme</span> que sur la <span className='importantWord'>maintenabilité</span>.</p>
+                    <p>Bien que je sois <span className='importantWord'>curieux</span> et <span className='importantWord'>déterminer</span> à apprendre tout type de langages, je me perfectionne avant tout en développant avec <span className='importantWord'>ReactJs/redux, Scss.</span>  </p>
+                </div>
+            </div>
+        </div >
 
 
     );

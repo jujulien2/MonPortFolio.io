@@ -9,7 +9,7 @@
   height: 0px;
   margin: 0 auto;
   background-color: #12171c;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgb(98, 115, 255);
 }
 .headerWrapper a {
   text-decoration: none;

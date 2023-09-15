@@ -7,7 +7,7 @@ const Layout = (props) => {
         <div className='background'>
             <div className='layoutWrapper' >
                 <Header
-                    navOne='Présentation'
+                    navOne='Accueil'
                     navTwo='Projets'
                     navThree='Compétences'
                 />
