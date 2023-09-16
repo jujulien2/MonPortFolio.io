@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MonPortFolio.io/static/css/main.3d55b576.css",
-    "main.js": "/MonPortFolio.io/static/js/main.aef5d30e.js",
+    "main.css": "/MonPortFolio.io/static/css/main.518a83e0.css",
+    "main.js": "/MonPortFolio.io/static/js/main.6df29bb3.js",
     "static/js/787.d50d89bd.chunk.js": "/MonPortFolio.io/static/js/787.d50d89bd.chunk.js",
     "static/media/backPlan.gif": "/MonPortFolio.io/static/media/backPlan.e3ff638d77d5d2ae2a93.gif",
     "static/media/foodScreen.png": "/MonPortFolio.io/static/media/foodScreen.c6db938aa89478defc67.png",
@@ -17,12 +17,12 @@
     "static/media/css.png": "/MonPortFolio.io/static/media/css.4a6549b8c2b4cda8bb88.png",
     "static/media/javaScript.png": "/MonPortFolio.io/static/media/javaScript.3dfb665e058d08c99f28.png",
     "index.html": "/MonPortFolio.io/index.html",
-    "main.3d55b576.css.map": "/MonPortFolio.io/static/css/main.3d55b576.css.map",
-    "main.aef5d30e.js.map": "/MonPortFolio.io/static/js/main.aef5d30e.js.map",
+    "main.518a83e0.css.map": "/MonPortFolio.io/static/css/main.518a83e0.css.map",
+    "main.6df29bb3.js.map": "/MonPortFolio.io/static/js/main.6df29bb3.js.map",
     "787.d50d89bd.chunk.js.map": "/MonPortFolio.io/static/js/787.d50d89bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d55b576.css",
-    "static/js/main.aef5d30e.js"
+    "static/css/main.518a83e0.css",
+    "static/js/main.6df29bb3.js"
   ]
 }
