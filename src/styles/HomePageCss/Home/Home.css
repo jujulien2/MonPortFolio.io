@@ -164,4 +164,35 @@
 .importantWord {
   font-weight: 600;
   color: rgb(98, 115, 255);
+}
+
+@media only screen and (max-width: 480px) {
+  .homeContain {
+    text-align: center;
+  }
+  .homeContain .nameAndPhoto {
+    flex-direction: column;
+    gap: 2em;
+  }
+  .homeContain .name {
+    font-size: 38px;
+  }
+  .homeContain .aboutMe h1 {
+    font-size: 30px;
+  }
+  .homeContain .textDescription {
+    width: 60%;
+  }
+  .homeContain .textContact {
+    width: 100%;
+  }
+  .homeContain .mailTo {
+    display: none;
+  }
+  .homeContain .containRightSide img {
+    width: 90%;
+  }
+  .homeContain .containRightSide .logoUnderPic img {
+    width: 35%;
+  }
 }/*# sourceMappingURL=Home.css.map */

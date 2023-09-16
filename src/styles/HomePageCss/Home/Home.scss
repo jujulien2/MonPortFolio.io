@@ -168,4 +168,43 @@ font-size: 20px;
   color: $primaryColor;
 }
 
+@media only screen and (max-width: 480px) {
+  .homeContain{
+    text-align: center;
+    .nameAndPhoto{
+      flex-direction: column;
+      gap: 2em;
+    }
+    .name{
+      font-size: 38px;
+    }
+    .aboutMe{
+      h1{
+        font-size: 30px;
 
+      }
+
+    }
+    .textDescription{
+      width: 60%;
+    }
+    .textContact{
+      width: 100%;
+    }
+    .mailTo{
+      display: none;
+    }
+    .containRightSide{
+      img{
+        width: 90%;
+      }
+      .logoUnderPic{
+        img{
+          width: 35%;
+        }
+      }
+    }
+  }
+
+
+}
