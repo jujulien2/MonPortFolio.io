@@ -1,0 +1,14 @@
+$thirdColor :  #0053a5;
+
+.wrapperLinks{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    i{
+        font-size: 2em;
+        color: white;
+        &:hover{
+            color: $thirdColor;
+        }
+    }
+}

@@ -48,3 +48,23 @@ font-family: 'Montserrat', sans-serif;
   color: white;
 }
 }
+// version mobile : 
+@media only screen and (max-width: 480px) {
+  .myProjects h1 {
+    font-size: 25px;
+  }
+
+  
+  .projectCards{
+    .cardWrapper {
+      width: 80%;
+      height: 35%;
+      
+      &:hover {
+        width: 100%;
+      }
+    }
+    gap: 2em;
+  }
+}
+

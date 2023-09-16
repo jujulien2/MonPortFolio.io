@@ -1,0 +1,12 @@
+.wrapperLinks {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+.wrapperLinks i {
+  font-size: 2em;
+  color: white;
+}
+.wrapperLinks i:hover {
+  color: #0053a5;
+}/*# sourceMappingURL=LinksSocial.css.map */

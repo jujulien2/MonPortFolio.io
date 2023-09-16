@@ -83,6 +83,7 @@
 }
 
 .containRightSide {
+  flex-direction: column;
   justify-content: center;
   height: auto;
   width: 35%;
@@ -95,7 +96,17 @@
   width: 50%;
 }
 
-.presentationWrapper {
+.logoUnderPic {
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+.logoUnderPic img {
+  height: auto;
+  width: 10%;
+}
+
+.descriptionWrapper {
   font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: center;
@@ -103,16 +114,51 @@
   box-shadow: rgb(98, 115, 255) 0px 0px 4px;
 }
 
-.textPresentation {
+.contactWrapper {
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #12171c;
+  box-shadow: rgb(98, 115, 255) 0px 0px 4px;
+}
+
+.textDescription {
   color: #f5f5f5;
   font-size: 18px;
   text-align: center;
   width: 50%;
 }
-.textPresentation h1 {
+.textDescription h1 {
   color: rgb(98, 115, 255);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 25px;
+}
+
+.textContact {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  align-items: center;
+  color: #f5f5f5;
+  font-size: 18px;
+  width: 50%;
+}
+.textContact h1 {
+  color: rgb(98, 115, 255);
+  font-weight: 500;
+  font-size: 20px;
+}
+.textContact a {
+  text-decoration: none;
+  color: white;
+}
+.textContact a i {
+  font-size: 2em;
+}
+.textContact a:hover {
+  color: #0053a5;
 }
 
 .importantWord {
