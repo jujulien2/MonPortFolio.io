@@ -102,5 +102,12 @@
   .modal {
     height: 80%;
     width: 72%;
+    text-align: center;
+  }
+  .modal .closeModal {
+    position: fixed;
+    right: 20%;
+    color: rgb(98, 115, 255);
+    filter: brightness(1.1);
   }
 }/*# sourceMappingURL=Modal.css.map */

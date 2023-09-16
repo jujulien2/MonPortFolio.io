@@ -105,6 +105,13 @@ width: 60%;
     .modal{
         height: 80%;
         width: 72%;
+        text-align: center;
+        .closeModal{
+            position: fixed;
+            right: 20%;
+            color: rgb(98, 115, 255);
+            filter: brightness(1.1);
+        }
     }
 
   }
