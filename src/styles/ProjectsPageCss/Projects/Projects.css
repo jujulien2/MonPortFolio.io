@@ -52,6 +52,7 @@
     font-size: 25px;
   }
   .projectCards {
+    margin-bottom: 81%;
     gap: 2em;
   }
   .projectCards .cardWrapper {

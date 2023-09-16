@@ -195,4 +195,7 @@
   .homeContain .containRightSide .logoUnderPic img {
     width: 35%;
   }
+  .homeContain .containLeftSide .job {
+    font-size: 100%;
+  }
 }/*# sourceMappingURL=Home.css.map */
