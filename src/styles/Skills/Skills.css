@@ -1,0 +1,39 @@
+.title {
+  margin-top: 2em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.title .bigTitle {
+  width: 100%;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  gap: 2em;
+  align-items: center;
+  justify-content: center;
+}
+.title .bigTitle i {
+  color: #0053a5;
+  filter: brightness(1.3);
+  font-size: 2em;
+}
+.title .bigTitle h1 {
+  color: white;
+  font-weight: 300;
+}
+
+.containSkillsWrapper {
+  margin-top: 4em;
+}
+.containSkillsWrapper img {
+  height: auto;
+  width: 35%;
+}
+.containSkillsWrapper .contentSkills {
+  display: flex;
+  align-items: center;
+}
+.containSkillsWrapper .contentSkills div {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=Skills.css.map */

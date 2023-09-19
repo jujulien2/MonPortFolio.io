@@ -20,7 +20,7 @@ const Home = () => {
                     <div className='name'>Blondel Julien</div>
                     <div className='job'>Développeur Junior - Intégrateur Web</div>
                     <div className='myDescription'>
-                        <p>Jeune developpeur intégrateur web junior de 24 ans,</p>
+                        <p> Developpeur intégrateur web junior de 24 ans,</p>
                         <p>Soif d'apprendre et de découvrir davantage le monde du web.</p>
                         <p className='sentenceAboutMe'>Passionné par le développement Front-end, j'apprécie particulièrement de créer des interfaces utilisateur professionnelles, agréables et intuitives qui améliorent l'expérience de l'utilisateur, tout en alliant esthétique et fonctionnalité. </p>
 

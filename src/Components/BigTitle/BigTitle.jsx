@@ -4,9 +4,12 @@ const BigTitle = (props) => {
     return (
 
         <div className={props.className}>
-            <hr />
-            <h1>{props.title}</h1>
-            <hr />
+            <div>
+                <hr />
+                <h1>{props.title}</h1>
+                <hr />
+            </div>
+            <div><i className={props.icone}></i></div>
         </div>
 
     );

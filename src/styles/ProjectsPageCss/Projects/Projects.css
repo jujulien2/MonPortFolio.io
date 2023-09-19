@@ -13,8 +13,6 @@
   display: flex;
   flex-wrap: wrap;
   padding: 25px;
-  animation: displayHomeContain forwards 2.5s;
-  opacity: 0;
 }
 
 .cardWrapper {

@@ -10,8 +10,9 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Projects" element={<Projets />} />
-          <Route path="/Skills" element={<Skills />} />
+          <Route path="/MonPortFolio.io/" element={<Home />} />
+          <Route path="/projects" element={<Projets />} />
+          <Route path="/skills" element={<Skills />} />
         </Routes>
       </Layout>
     </Router>

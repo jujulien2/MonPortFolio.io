@@ -16,6 +16,7 @@ import scss from '../Skills/scss.png'
 import OCR from '../Skills/OCR.png'
 
 
+
 const data = [
     {
         "id": 1,
