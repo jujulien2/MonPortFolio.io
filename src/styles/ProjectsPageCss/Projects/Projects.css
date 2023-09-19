@@ -1,6 +1,11 @@
+.blueWord {
+  color: rgb(98, 115, 255);
+}
+
 .projectsWrapper {
   display: flex;
   gap: 2em;
+  padding: 25px;
   flex-direction: column;
 }
 
@@ -21,7 +26,6 @@
   border: rgba(255, 255, 255, 0.1490196078) solid 3px;
   width: 25%;
   font-family: "Montserrat", sans-serif;
-  padding: 20px;
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -43,6 +47,23 @@
   margin: 10px;
   font-family: "Montserrat", sans-serif;
   color: white;
+}
+
+.descriptionMyProjects {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #12171c;
+  box-shadow: rgb(98, 115, 255) 0px 0px 4px;
+}
+.descriptionMyProjects div {
+  width: 50%;
+  text-align: center;
+}
+.descriptionMyProjects div h2 {
+  font-weight: 400;
+  color: white;
+  font-size: 19px;
 }
 
 @media only screen and (max-width: 480px) {

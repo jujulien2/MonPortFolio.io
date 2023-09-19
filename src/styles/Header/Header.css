@@ -21,7 +21,7 @@
 }
 .headerWrapper .presentation a {
   font-weight: 600;
-  color: hsla(0, 0%, 96.1%, 0.5);
+  color: hsla(0, 0%, 96%, 0.879);
 }
 
 @keyframes displayHeader {

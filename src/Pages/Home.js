@@ -10,7 +10,9 @@ import LinksSocial from '../Components/LinksSocial/LinksSocial';
 
 
 const Home = () => {
+
     const emailAddress = 'julien.blondel218@yahoo.com'
+
     return (
 
         <div className='homeContain'>
@@ -40,18 +42,18 @@ const Home = () => {
                 title='Présentation'
                 className="aboutMe"
             />
-            <div className='descriptionWrapper'>
+            <section className='descriptionWrapper'>
                 <div className='textDescription'>
                     <h1>Bienvenue sur mon portfolio !</h1>
                     <p>En tant qu'intégrateur web je prends plaisir à développer des sites optimisés, tant sur <span className='importantWord'>l'esthétisme</span> que sur la <span className='importantWord'>maintenabilité</span>.</p>
                     <p>Bien que je sois <span className='importantWord'>curieux</span> et <span className='importantWord'>déterminer</span> à apprendre tout type de langages, je me perfectionne avant tout en développant avec <span className='importantWord'>ReactJs/redux, Scss.</span>  </p>
                 </div>
-            </div>
+            </section>
             <BigTitle
                 title='Contact'
                 className="aboutMe"
             />
-            <div className='contactWrapper'>
+            <section className='contactWrapper'>
                 <div className='textContact'>
                     <h1>Mon profil vous intéresse ? N'hésitez pas ! </h1>
                     <a className='mailTo' href={`mailto:${emailAddress}`}>
@@ -59,7 +61,7 @@ const Home = () => {
                     </a>
                 </div>
                 <LinksSocial />
-            </div>
+            </section>
         </div >
 
 

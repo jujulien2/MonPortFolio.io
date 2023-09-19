@@ -1,8 +1,8 @@
 $primaryColor :  rgb(98 115 255);
 $secondaryColor :  #12171c;
-$thirdColor :  #0053a5;
+$thirdColor : rgb(98, 115, 255);
 .title{
-    margin-top: 2em;
+    margin-top: 3em;
     width: 100%;
     display: flex;
     align-items: center;
@@ -21,15 +21,14 @@ $thirdColor :  #0053a5;
     h1{
         color: white;
         font-weight: 300;
+        font-size: 35px;
     }
 }
 }
+// skills
 .containSkillsWrapper{
     margin-top: 4em;
-    img{
-        height: auto;
-        width: 35%;
-    }
+   
     .contentSkills{
             display: flex;
             align-items: center;
@@ -38,5 +37,48 @@ $thirdColor :  #0053a5;
                 justify-content: center;
             }
         
+    }
+}
+.skillsContent{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    position: relative;
+    i{
+        cursor: pointer;
+        font-size: 3em;
+    }
+    img{
+        height: auto;
+        width: 35%;
+    }
+    .percent{
+        color:$thirdColor;
+        filter: brightness(1.2);
+        opacity: 0;
+        position: absolute;
+    }
+}
+
+// class affichage % :
+.displayPercent{
+    animation: displayPercentage forwards 0.1s ;
+}
+.none{
+    opacity: 0;
+}
+
+@keyframes displayPercentage {
+    0%{
+opacity: 0;
+bottom: -10px;
+
+    }
+    100%{
+opacity: 1;
+bottom: 15px;
     }
 }

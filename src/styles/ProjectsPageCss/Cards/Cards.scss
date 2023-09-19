@@ -1,7 +1,10 @@
+$primaryColor :  rgb(98 115 255);
+$secondaryColor :  #12171c;
+$thirdColor : rgb(98, 115, 255);
 .cardWrapper{
 
     h1{
-        color: rgb(98, 115, 255);
+        color: $thirdColor;
         font-family: "Montserrat", sans-serif;
         font-weight: 200;
         font-size: 25px;
@@ -13,7 +16,7 @@
         background-color: #12171c;
         transition: all 0.6s;
         width: 26%;
-        box-shadow: rgb(98 115 255 / 38%) 2px 2px 15px;
+        box-shadow: rgb(0 82 163 / 38%) 2px 2px 15px;
         
         .openProject{
             opacity: 1;

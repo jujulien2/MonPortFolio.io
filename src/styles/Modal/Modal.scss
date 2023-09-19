@@ -1,3 +1,8 @@
+$primaryColor :  rgb(98 115 255);
+$secondaryColor :  #12171c;
+$thirdColor : rgb(98, 115, 255);
+
+
 .modalWrapper{
     position: fixed;
     height: 100vh;
@@ -29,7 +34,7 @@
         font-size: 20px;
     }
     li{
-        color: rgb(98, 115, 255);
+        color:$thirdColor;
         font-size: 18px;
         
     }
@@ -46,7 +51,7 @@
         text-shadow: 10px 6px 2px rgba(0, 0, 0, 0.34);
         font-size: 25px;
         text-decoration: underline;
-         color: rgb(98, 115, 255);
+        color:$thirdColor;
          margin-top: 0;
         margin-bottom: 2em;
         font-family: "Montserrat", sans-serif;

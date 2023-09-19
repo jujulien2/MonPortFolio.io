@@ -31,7 +31,13 @@ const Projets = () => {
                     className="myProjects"
                 />
             </div>
-            <div className='projectCards'>
+            <div className="descriptionMyProjects">
+                <div>
+                    <h2>Retrouvez quelques-uns de mes projets ! La plupart étant des projets via <span className='blueWord'>OpenClassRooms</span>, des projets professionnalisants copiés de réel travaux en entreprise !</h2>
+                </div>
+            </div>
+
+            <section className='projectCards'>
                 {Data && Data.map((project, index) => (
                     < Cards
                         key={index}
@@ -51,7 +57,7 @@ const Projets = () => {
 
 
                 ) : null}
-            </div>
+            </section>
         </div>
     );
 };

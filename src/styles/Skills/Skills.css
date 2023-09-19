@@ -1,5 +1,5 @@
 .title {
-  margin-top: 2em;
+  margin-top: 3em;
   width: 100%;
   display: flex;
   align-items: center;
@@ -13,21 +13,18 @@
   justify-content: center;
 }
 .title .bigTitle i {
-  color: #0053a5;
+  color: rgb(98, 115, 255);
   filter: brightness(1.3);
   font-size: 2em;
 }
 .title .bigTitle h1 {
   color: white;
   font-weight: 300;
+  font-size: 35px;
 }
 
 .containSkillsWrapper {
   margin-top: 4em;
-}
-.containSkillsWrapper img {
-  height: auto;
-  width: 35%;
 }
 .containSkillsWrapper .contentSkills {
   display: flex;
@@ -36,4 +33,47 @@
 .containSkillsWrapper .contentSkills div {
   display: flex;
   justify-content: center;
+}
+
+.skillsContent {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  position: relative;
+}
+.skillsContent i {
+  cursor: pointer;
+  font-size: 3em;
+}
+.skillsContent img {
+  height: auto;
+  width: 35%;
+}
+.skillsContent .percent {
+  color: rgb(98, 115, 255);
+  filter: brightness(1.2);
+  opacity: 0;
+  position: absolute;
+}
+
+.displayPercent {
+  animation: displayPercentage forwards 0.1s;
+}
+
+.none {
+  opacity: 0;
+}
+
+@keyframes displayPercentage {
+  0% {
+    opacity: 0;
+    bottom: -10px;
+  }
+  100% {
+    opacity: 1;
+    bottom: 15px;
+  }
 }/*# sourceMappingURL=Skills.css.map */
