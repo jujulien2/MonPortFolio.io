@@ -1,13 +1,17 @@
-$primaryColor :  rgb(98 115 255);
+$primaryColor :  #6ec7e0;
 $secondaryColor :  #12171c;
-$thirdColor : rgb(98, 115, 255);
+
+
+$ralewayFont :'Raleway', sans-serif;
+$silksFont: 'Silkscreen', cursive;
+
 .cardWrapper{
 
     h1{
-        color: $thirdColor;
-        font-family: "Montserrat", sans-serif;
+        color: $primaryColor;
+        font-family: $ralewayFont;
         font-weight: 200;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 300;
         margin: 0;
     }
@@ -55,10 +59,10 @@ $thirdColor : rgb(98, 115, 255);
     }
     
     button{
-        font-family: "Montserrat", sans-serif;
+        font-family: $ralewayFont;
         color: rgb(98, 115, 255);
         cursor: pointer;
-        font-size: 25px;
+        font-size: 20px;
         text-decoration: none;
        background-color: transparent;
     }

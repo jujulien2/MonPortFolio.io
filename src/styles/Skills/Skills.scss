@@ -1,6 +1,10 @@
-$primaryColor :  rgb(98 115 255);
+$primaryColor :  #6ec7e0;
 $secondaryColor :  #12171c;
-$thirdColor : rgb(98, 115, 255);
+
+
+$ralewayFont :'Raleway', sans-serif;
+$silksFont: 'Silkscreen', cursive;
+
 .title{
     margin-top: 3em;
     width: 100%;
@@ -9,12 +13,12 @@ $thirdColor : rgb(98, 115, 255);
     .bigTitle{
        width: 100%;
     display: flex;
-    font-family: "Montserrat", sans-serif;
+    font-family:$silksFont;
     gap: 2em;
     align-items: center;
     justify-content: center;
     i{
-        color:$thirdColor ;
+        color:$primaryColor ;
         filter: brightness(1.3);
         font-size: 2em;
     }
@@ -56,7 +60,7 @@ $thirdColor : rgb(98, 115, 255);
         width: 35%;
     }
     .percent{
-        color:$thirdColor;
+        color:$primaryColor;
         filter: brightness(1.2);
         opacity: 0;
         position: absolute;
@@ -85,6 +89,7 @@ bottom: 15px;
 }
 @media only screen and (max-width: 480px) {
   .skillsContent{
+    gap: 2em;
     img{
         width: 55%;
     }
@@ -92,5 +97,7 @@ bottom: 15px;
         font-size: 2em;
     }
   }
-  
+  .title .bigTitle h1 {
+    font-size: 25px;
+}
   }

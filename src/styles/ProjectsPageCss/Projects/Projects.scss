@@ -1,9 +1,12 @@
-$primaryColor :  rgb(98 115 255);
+$primaryColor :  #6ec7e0;
 $secondaryColor :  #12171c;
-$thirdColor : rgb(98, 115, 255);
+
+$ralewayFont :'Raleway', sans-serif;
+$silksFont: 'Silkscreen', cursive;
+
 
 .blueWord{
-  color: $thirdColor;
+  color: $primaryColor;
 }
 
 .projectsWrapper{
@@ -28,7 +31,7 @@ $thirdColor : rgb(98, 115, 255);
     position: relative;
     border: rgba(255, 255, 255, 0.1490196078) solid 3px;
     width: 25%;
-    font-family: "Montserrat", sans-serif;
+    font-family: $silksFont;
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -48,17 +51,17 @@ h1{
   font-weight: 300;
   font-size: 40px;
   margin: 10px;
-font-family: 'Montserrat', sans-serif;
+font-family: $silksFont;
 
   color: white;
 }
 }
 .descriptionMyProjects{
-  font-family: "Roboto", sans-serif;
+  font-family: $ralewayFont;
     display: flex;
     justify-content: center;
     background-color: #12171c;
-    box-shadow: rgb(98, 115, 255) 0px 0px 4px;
+    box-shadow:$primaryColor 0px 0px 4px;
     div{
 width: 50%;
 text-align: center;

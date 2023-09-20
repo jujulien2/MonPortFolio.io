@@ -9,11 +9,11 @@
   height: 0px;
   margin: 0 auto;
   background-color: #12171c;
-  box-shadow: 0 0 10px rgb(98, 115, 255);
+  box-shadow: 0 0 10px #6ec7e0;
 }
 .headerWrapper a {
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Silkscreen", cursive;
 }
 .headerWrapper a p:hover {
   color: rgb(98, 115, 255);

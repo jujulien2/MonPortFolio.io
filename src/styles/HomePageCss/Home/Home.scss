@@ -1,7 +1,9 @@
-$primaryColor :  rgb(98 115 255);
+$primaryColor :  #6ec7e0;
 $secondaryColor :  #12171c;
 $thirdColor :  #0053a5;
 
+$ralewayFont :'Raleway', sans-serif;
+$silksFont: 'Silkscreen', cursive;
 .homeContain{
   gap: 5em;
   display: flex;
@@ -32,10 +34,11 @@ $thirdColor :  #0053a5;
       width: 80%;
     }
   h1{
+    
     font-weight: 300;
     font-size: 40px;
     margin: 10px;
-font-family: 'Montserrat', sans-serif;
+font-family: $silksFont;
 
     color: white;
   }
@@ -56,14 +59,14 @@ align-items: center;
 
 .name{
     color: #f5f5f5;
-font-family: 'Montserrat', sans-serif;
+font-family: $ralewayFont;
 white-space: nowrap;
    font-weight: 300;
    font-size: 60px;
 }
 .job{
     color: $primaryColor;
-    font-family: 'Roboto', sans-serif;
+    font-family:$silksFont;
 white-space: nowrap;
 font-weight: 400;
 font-size: 20px;
@@ -74,7 +77,7 @@ font-size: 20px;
   color: #f5f5f5;
   font-size: 18px;
   margin-top: 2em;
-  font-family: 'Roboto', sans-serif;
+  font-family: $ralewayFont;
 .sentenceAboutMe{
   margin-top: 1em;
 }
@@ -110,7 +113,7 @@ font-size: 20px;
 }
 // texte de présentation :
 .descriptionWrapper{
-  font-family: 'Roboto', sans-serif;
+  font-family: $ralewayFont;
   display: flex;
   justify-content: center;
   background-color: $secondaryColor;
@@ -118,7 +121,7 @@ font-size: 20px;
 }
 .contactWrapper{
   padding: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: $ralewayFont;
   display: flex;
   flex-direction: column;
   align-items:center;
@@ -204,10 +207,11 @@ font-size: 20px;
     }
     .containLeftSide{
       .job{
-        font-size: 100%;
+        font-size: 75%;
       }
     }
   }
+
 
 
 }

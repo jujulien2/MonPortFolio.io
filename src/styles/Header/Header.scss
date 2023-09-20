@@ -1,5 +1,9 @@
-$primaryColor :  rgb(98 115 255);
+$primaryColor :  #6ec7e0;
 $secondaryColor :  #12171c;
+
+$ralewayFont :'Raleway', sans-serif;
+$silksFont: 'Silkscreen', cursive;
+
 .headerWrapper{
     display: flex;
     justify-content: space-evenly;
@@ -15,7 +19,7 @@ $secondaryColor :  #12171c;
     a{
        
         text-decoration: none;
-        font-family: 'Montserrat', sans-serif;
+        font-family: $silksFont;
         p{
             &:hover { 
                 color: rgb(98, 115, 255);

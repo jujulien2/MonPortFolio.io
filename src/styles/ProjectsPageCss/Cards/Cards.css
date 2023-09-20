@@ -1,8 +1,8 @@
 .cardWrapper h1 {
-  color: rgb(98, 115, 255);
-  font-family: "Montserrat", sans-serif;
+  color: #6ec7e0;
+  font-family: "Raleway", sans-serif;
   font-weight: 200;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   margin: 0;
 }
@@ -46,10 +46,10 @@
   margin-right: 15px;
 }
 .openProject button {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: rgb(98, 115, 255);
   cursor: pointer;
-  font-size: 25px;
+  font-size: 20px;
   text-decoration: none;
   background-color: transparent;
 }
