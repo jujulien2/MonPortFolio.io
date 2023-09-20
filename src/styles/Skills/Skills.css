@@ -65,6 +65,7 @@
 
 .none {
   opacity: 0;
+  transition: 0.4s;
 }
 
 @keyframes displayPercentage {
@@ -75,5 +76,13 @@
   100% {
     opacity: 1;
     bottom: 15px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .skillsContent img {
+    width: 55%;
+  }
+  .skillsContent i {
+    font-size: 2em;
   }
 }/*# sourceMappingURL=Skills.css.map */

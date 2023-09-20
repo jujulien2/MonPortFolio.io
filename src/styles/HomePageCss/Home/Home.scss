@@ -11,7 +11,16 @@ $thirdColor :  #0053a5;
   padding: 25px;
   max-width: 100%;
 }
-
+// affichage / disparition :
+.noneNumber{
+  opacity: 0;
+  transition: 0.4s;
+  position: absolute;
+}
+.display{
+  opacity: 1;
+  transition: 0.4s;
+}
 
 // presentation : 
 .aboutMe{

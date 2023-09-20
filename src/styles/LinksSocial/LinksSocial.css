@@ -1,12 +1,31 @@
 .wrapperLinks {
+  height: 35%;
   display: flex;
   justify-content: center;
   gap: 2em;
 }
 .wrapperLinks i {
+  cursor: pointer;
   font-size: 2em;
   color: white;
 }
 .wrapperLinks i:hover {
   color: #0053a5;
+}
+.wrapperLinks .phoneLogo {
+  position: relative;
+}
+.wrapperLinks .phoneLogo .phoneNumber {
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  opacity: 1;
+  bottom: -9px;
+}
+
+@media only screen and (max-width: 480px) {
+  .wrapperLinks {
+    gap: 1em;
+    padding-right: 20%;
+  }
 }/*# sourceMappingURL=LinksSocial.css.map */

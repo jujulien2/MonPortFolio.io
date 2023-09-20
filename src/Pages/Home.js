@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import '../styles/HomePageCss/Home/Home.css'
 import picOfMe from '../Assets/photo.webp'
@@ -10,6 +10,13 @@ import LinksSocial from '../Components/LinksSocial/LinksSocial';
 
 
 const Home = () => {
+    const [isHovered, setIsHovered] = useState(false);
+
+    const handleHover = () => {
+        setIsHovered(true);
+    };
+    const noneLogoPhone = isHovered ? 'none' : ''
+    const displayPhoneNumber = isHovered ? 'phoneNumber' : 'noneNumber'
 
     const emailAddress = 'julien.blondel218@yahoo.com'
 
@@ -60,7 +67,12 @@ const Home = () => {
                         <span><i className="fa-regular fa-paper-plane"></i></span>
                     </a>
                 </div>
-                <LinksSocial />
+                <LinksSocial
+                    class={noneLogoPhone}
+                    enter={handleHover}
+                    leave={handleHover}
+                    classNumber={displayPhoneNumber}
+                />
             </section>
         </div >
 

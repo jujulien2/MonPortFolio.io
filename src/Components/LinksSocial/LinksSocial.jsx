@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/LinksSocial/LinksSocial.css'
-const LinksSocial = () => {
+const LinksSocial = (props) => {
     const emailAddress = 'julien.blondel218@yahoo.com'
     return (
         <div className='wrapperLinks'>
@@ -13,7 +13,20 @@ const LinksSocial = () => {
             <a target='blank_' href={`mailto:${emailAddress}`}>
                 <span><i className="fa-solid fa-envelope"></i></span>
             </a>
-        </div>
+            <div className='phoneLogo'>
+                <i
+                    className={`fa-solid fa-phone ${props.class}`}
+                    onMouseEnter={props.enter}
+                    onMouseLeave={props.leave}
+                >
+                </i>
+                <p
+                    onMouseEnter={props.enter}
+                    onMouseLeave={props.leave}
+                    className={props.classNumber}>06.10.33.76.44
+                </p>
+            </div>
+        </div >
     );
 };
 

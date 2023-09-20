@@ -8,6 +8,17 @@
   max-width: 100%;
 }
 
+.noneNumber {
+  opacity: 0;
+  transition: 0.4s;
+  position: absolute;
+}
+
+.display {
+  opacity: 1;
+  transition: 0.4s;
+}
+
 .aboutMe {
   display: flex;
   flex-direction: column;
