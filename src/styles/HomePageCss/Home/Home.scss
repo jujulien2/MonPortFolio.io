@@ -97,6 +97,7 @@ font-size: 20px;
   display: flex;
   align-items: center;
   img{
+    box-shadow: 0 0 4px $primaryColor;
     border: $secondaryColor solid 8px;
   height: auto;
   width: 50%;

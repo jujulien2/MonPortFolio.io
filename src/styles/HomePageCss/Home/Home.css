@@ -91,6 +91,7 @@
   align-items: center;
 }
 .containRightSide img {
+  box-shadow: 0 0 4px #6ec7e0;
   border: #12171c solid 8px;
   height: auto;
   width: 50%;
