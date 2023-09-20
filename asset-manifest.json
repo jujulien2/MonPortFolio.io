@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/MonPortFolio.io/static/css/main.d5a061c6.css",
-    "main.js": "/MonPortFolio.io/static/js/main.acb95825.js",
+    "main.css": "/MonPortFolio.io/static/css/main.28840dac.css",
+    "main.js": "/MonPortFolio.io/static/js/main.6c407615.js",
     "static/js/787.d50d89bd.chunk.js": "/MonPortFolio.io/static/js/787.d50d89bd.chunk.js",
-    "static/media/backPlan.gif": "/MonPortFolio.io/static/media/backPlan.e3ff638d77d5d2ae2a93.gif",
+    "static/media/backPlan.gif": "/MonPortFolio.io/static/media/backPlan.c4fcc6946b8e8f76f280.gif",
     "static/media/foodScreen.png": "/MonPortFolio.io/static/media/foodScreen.c6db938aa89478defc67.png",
     "static/media/kasaScreen.png": "/MonPortFolio.io/static/media/kasaScreen.9e83c1a44eee4ac35135.png",
     "static/media/Oh_my_food.png": "/MonPortFolio.io/static/media/Oh_my_food.3b7118aab5cf30c7b074.png",
@@ -15,14 +15,17 @@
     "static/media/react.png": "/MonPortFolio.io/static/media/react.c6ec8adccd50ce60cb11.png",
     "static/media/html.png": "/MonPortFolio.io/static/media/html.cfb2ba4a6b1c3de295bc.png",
     "static/media/css.png": "/MonPortFolio.io/static/media/css.4a6549b8c2b4cda8bb88.png",
+    "static/media/Swagger-logo.png": "/MonPortFolio.io/static/media/Swagger-logo.afd1bfb8320b5e8ca2ce.png",
     "static/media/javaScript.png": "/MonPortFolio.io/static/media/javaScript.3dfb665e058d08c99f28.png",
+    "static/media/nodejs-icon.svg": "/MonPortFolio.io/static/media/nodejs-icon.615ffbea9529ca7047ed8a912bfd94b2.svg",
     "index.html": "/MonPortFolio.io/index.html",
-    "main.d5a061c6.css.map": "/MonPortFolio.io/static/css/main.d5a061c6.css.map",
-    "main.acb95825.js.map": "/MonPortFolio.io/static/js/main.acb95825.js.map",
+    "static/media/redux.svg": "/MonPortFolio.io/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
+    "main.28840dac.css.map": "/MonPortFolio.io/static/css/main.28840dac.css.map",
+    "main.6c407615.js.map": "/MonPortFolio.io/static/js/main.6c407615.js.map",
     "787.d50d89bd.chunk.js.map": "/MonPortFolio.io/static/js/787.d50d89bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5a061c6.css",
-    "static/js/main.acb95825.js"
+    "static/css/main.28840dac.css",
+    "static/js/main.6c407615.js"
   ]
 }
