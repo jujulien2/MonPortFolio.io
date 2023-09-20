@@ -159,7 +159,7 @@
   font-size: 2em;
 }
 .textContact a:hover {
-  color: #0053a5;
+  color: #6ec7e0;
 }
 
 .importantWord {
@@ -182,7 +182,7 @@
     font-size: 30px;
   }
   .homeContain .textDescription {
-    width: 60%;
+    width: 80%;
   }
   .homeContain .textContact {
     width: 100%;

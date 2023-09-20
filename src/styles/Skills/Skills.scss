@@ -87,6 +87,31 @@ opacity: 1;
 bottom: 15px;
     }
 }
+
+.secondSkills{
+    padding-left:4%;
+    margin-top: 3em;
+    h1{
+        color: $primaryColor;
+        margin-bottom: 4em;
+        font-family: $silksFont;
+    }
+}
+.otherlogoWrapper{
+display: flex;
+justify-content: space-around;
+    .otherLogo{
+        text-align:center;
+        width: min-content;
+        img{
+            height:auto;
+            width: 5em;
+        }
+    .nameLogo{
+        color: $primaryColor;
+    }
+    }
+}
 @media only screen and (max-width: 480px) {
   .skillsContent{
     gap: 2em;
@@ -100,4 +125,19 @@ bottom: 15px;
   .title .bigTitle h1 {
     font-size: 25px;
 }
+.secondSkills{
+    
+    h1{
+       font-size: 17px
+    }
+    .otherLogo{
+      
+        img{
+            width: 3em;
+        }
+    
+    }
+}
   }
+
+

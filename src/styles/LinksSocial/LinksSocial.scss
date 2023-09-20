@@ -1,4 +1,5 @@
-$thirdColor :  #0053a5;
+$primaryColor :  #6ec7e0;
+$secondaryColor :  #12171c;
 
 .wrapperLinks{
     height: 35%;
@@ -10,7 +11,7 @@ $thirdColor :  #0053a5;
         font-size: 2em;
         color: white;
         &:hover{
-            color: $thirdColor;
+            color: $primaryColor;
         }
     }
     .phoneLogo{

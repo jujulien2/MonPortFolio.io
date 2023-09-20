@@ -62,7 +62,7 @@ font-family: $silksFont;
     justify-content: center;
     background-color: #12171c;
     box-shadow:$primaryColor 0px 0px 4px;
-    div{
+    .h2{
 width: 50%;
 text-align: center;
       h2{
@@ -93,6 +93,13 @@ text-align: center;
       }
     }
     gap: 3em;
+  }
+  .descriptionMyProjects{
+
+      .h2{
+  width: 80%;
+  text-align: center;
+      }
   }
 }
 

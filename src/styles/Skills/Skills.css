@@ -78,6 +78,33 @@
     bottom: 15px;
   }
 }
+.secondSkills {
+  padding-left: 4%;
+  margin-top: 3em;
+}
+.secondSkills h1 {
+  color: #6ec7e0;
+  margin-bottom: 4em;
+  font-family: "Silkscreen", cursive;
+}
+
+.otherlogoWrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.otherlogoWrapper .otherLogo {
+  text-align: center;
+  width: -moz-min-content;
+  width: min-content;
+}
+.otherlogoWrapper .otherLogo img {
+  height: auto;
+  width: 5em;
+}
+.otherlogoWrapper .otherLogo .nameLogo {
+  color: #6ec7e0;
+}
+
 @media only screen and (max-width: 480px) {
   .skillsContent {
     gap: 2em;
@@ -90,5 +117,11 @@
   }
   .title .bigTitle h1 {
     font-size: 25px;
+  }
+  .secondSkills h1 {
+    font-size: 17px;
+  }
+  .secondSkills .otherLogo img {
+    width: 3em;
   }
 }/*# sourceMappingURL=Skills.css.map */

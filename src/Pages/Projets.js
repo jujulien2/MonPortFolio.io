@@ -32,7 +32,7 @@ const Projets = () => {
                 />
             </div>
             <div className="descriptionMyProjects">
-                <div>
+                <div className='h2'>
                     <h2>Retrouvez quelques-uns de mes projets ! La plupart étant des projets via <span className='blueWord'>OpenClassRooms</span>, des projets professionnalisants copiés de réel travaux en entreprise !</h2>
                 </div>
             </div>

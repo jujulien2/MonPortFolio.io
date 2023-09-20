@@ -56,11 +56,11 @@
   background-color: #12171c;
   box-shadow: #6ec7e0 0px 0px 4px;
 }
-.descriptionMyProjects div {
+.descriptionMyProjects .h2 {
   width: 50%;
   text-align: center;
 }
-.descriptionMyProjects div h2 {
+.descriptionMyProjects .h2 h2 {
   font-weight: 400;
   color: white;
   font-size: 19px;
@@ -84,5 +84,9 @@
   }
   .projectCards .cardWrapper:hover {
     width: 100%;
+  }
+  .descriptionMyProjects .h2 {
+    width: 80%;
+    text-align: center;
   }
 }/*# sourceMappingURL=Projects.css.map */

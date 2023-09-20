@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import BigTitle from '../Components/BigTitle/BigTitle';
 import '../styles/Skills/Skills.css'
 import logoSkills from '../Assets/Data/logoSkills';
+import otherLogo from '../Assets/Data/othersLogo';
 
 const Skills = () => {
     const [isHovered, setIsHovered] = useState(true);
@@ -36,6 +37,20 @@ const Skills = () => {
                     ))}
                 </div>
             </div>
+
+            <section className='secondSkills'>
+                <div>
+                    <h1>J'ai pu travailler avec :</h1>
+                </div>
+                <div className='otherlogoWrapper'>
+                    {otherLogo && otherLogo.map((logo, index) => (
+                        <div className="otherLogo" key={index}>
+                            <img src={logo.type}></img>
+                            <p className='nameLogo'>{logo.name}</p>
+                        </div>
+                    ))}
+                </div>
+            </section>
 
 
         </div>
