@@ -77,3 +77,10 @@ $silksFont: 'Silkscreen', cursive;
         width: 15%;
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
+      .cardWrapper:hover {
+      width: 72%;
+    }
+    }

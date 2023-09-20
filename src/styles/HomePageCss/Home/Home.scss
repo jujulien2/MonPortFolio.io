@@ -68,7 +68,6 @@ white-space: nowrap;
     font-family:$silksFont;
 white-space: nowrap;
 font-weight: 400;
-font-size: 20px;
 }
 
 // About me 
@@ -167,6 +166,9 @@ font-size: 20px;
 .importantWord{
   font-weight: 600;
   color: $primaryColor;
+}
+@media only screen and (min-width: 768px) {
+ 
 }
 
 @media only screen and (max-width: 480px) {

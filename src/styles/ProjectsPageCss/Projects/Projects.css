@@ -89,4 +89,17 @@
     width: 80%;
     text-align: center;
   }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .projectCards {
+    flex-wrap: nowrap;
+    gap: 4em;
+    flex-direction: column;
+  }
+  .projectCards .cardWrapper {
+    width: 70%;
+  }
+  .projectCards .cardWrapper h1 {
+    font-size: 27px;
+  }
 }/*# sourceMappingURL=Projects.css.map */

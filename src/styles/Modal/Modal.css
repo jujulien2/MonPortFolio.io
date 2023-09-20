@@ -110,4 +110,9 @@
     color: #6ec7e0;
     filter: brightness(1.1);
   }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .modal {
+    width: 70%;
+  }
 }/*# sourceMappingURL=Modal.css.map */
