@@ -44,3 +44,11 @@ $silksFont: 'Silkscreen', cursive;
         height: auto;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    .headerWrapper{
+        font-size: 13px;
+    }
+  
+  }
+  

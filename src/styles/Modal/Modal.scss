@@ -112,12 +112,38 @@ width: 60%;
     .modal{
         height: 80%;
         width: 72%;
+        padding: 40px;
         text-align: center;
         .closeModal{
             position: fixed;
             right: 20%;
             color: $primaryColor;
             filter: brightness(1.1);
+        }
+        .headerModal  {
+            h1{
+                font-size: 20px;
+            }
+        }
+        h2{
+            font-size: 18px;
+            margin-top: 5em;
+            margin-bottom: 2em;
+        }
+        p{
+            margin-top: 1em;
+            font-size: 95%;
+        }
+        li{
+            font-size: 91%;
+        }
+        .seeProject{
+            a{
+                font-size: 80%;
+            }
+        }
+        .imgOfModal{
+            gap: 1em;
         }
     }
 
